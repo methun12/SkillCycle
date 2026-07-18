@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Local config
+*.local
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# IDE
+.vscode/
+.idea/
+
+# VS
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Vim
+*.swp
+*.swo
+
+# Temporary
+tmp/
+temp/
+.cache/
+
+# Package managers
+.pnpm-store/
+.npm/
+.yarn/
+
+# Misc
+*.pid
+*.seed
